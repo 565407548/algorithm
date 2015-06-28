@@ -1,3 +1,5 @@
+import javax.swing.tree.ExpandVetoException;
+
 public class Stack<T> {
 	private final static int ENLARGE_THRESHOLD = 2;// mCapacity=2*mCapacity
 	private final static int SHRINK_THRESHOLD = 4;// mCapacity==4*mSize
